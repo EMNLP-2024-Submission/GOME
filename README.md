@@ -1,7 +1,7 @@
 # GOME: (EMNLP 2024 Submission)
 
 This repository hosts the code and resources associated with our  GOME: Grounding-based Metaphor Binding With Conceptual
-Elaboration For Figurative Language Illustration
+Elaboration For Figurative Language Illustration. 
 
 
 ## Abstract
@@ -25,7 +25,7 @@ For example, the original metaphor:
 
 {"Metaphor": "Time is money.",  
 "Tenors preferably to be included": "clock,coins, and bills",   
-"Vehicles preferably to be excluded": "None", "Grounding": "Time is valuable and should be spent wisely", 
+"Vehicles preferably to be excluded": "None", "Grounding": "Time is valuable and should be spent wisely",  
 "Visual elaboration": "An hourglass amidst piles of gold coins and bills, sand flowing rapidly as if mixing with the treasures."}
 
 
@@ -36,7 +36,7 @@ For example, the original metaphor:
 python run.py --metaphor "Time is money." --prompt "An hourglass amidst piles of gold coins and bills, sand flowing rapidly as if mixing with the treasures." --tenor ['clock','coin','bills']
 ```
 
-We use the stable diffusion model `CompVis/stable-diffusion-v1-4`. If you rather use an existing copy of the model, provide the absolute path using `--model_path`.
+We use the stable diffusion model `CompVis/stable-diffusion-v1-4`. For local copy of the model, provide the absolute path in `--model_path`.
 
 
 
