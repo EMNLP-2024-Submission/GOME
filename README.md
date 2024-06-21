@@ -23,8 +23,8 @@ The original metaphor is elobarated through LLM, the settings of System Role are
 For example, the original metaphor:
 'Time is money' is elaborated as:
 
-{"Metaphor": "Time is money.", 
-"Tenors preferably to be included": "clock,coins, and bills", 
+{"Metaphor": "Time is money.",  
+"Tenors preferably to be included": "clock,coins, and bills",   
 "Vehicles preferably to be excluded": "None", "Grounding": "Time is valuable and should be spent wisely", 
 "Visual elaboration": "An hourglass amidst piles of gold coins and bills, sand flowing rapidly as if mixing with the treasures."}
 
